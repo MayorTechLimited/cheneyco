@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <title>{% block title %}Cheney &amp; Co{% endblock title %}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3f81bcb830.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="flex flex-col h-full">
+    <header class="bg-black p-4">
+        <div class="max-w-3xl mx-auto flex flex-col md:flex-row flex-wrap gap-4 md:items-center">
+            <div class="">
+                <a class="" href="/">
+                    <img src="/images/logo.png" alt="The Cheney & Co logo. A black background with white letters spelling out the name." width="200">
+                </a>
+            </div>
+            <nav class="text-white flex-grow">
+                <ul class="flex flex-col md:flex-row gap-4 md:justify-end">
+                    <li class=""><a class="hover:underline hover:text-yellow-500" href="/about/">About Us</a></li>
+                    <li class=""><a class="hover:underline hover:text-yellow-500" href="/services/">Our Services</a></li>
+                    <li class=""><a class="hover:underline hover:text-yellow-500" href="/resources/">Resources</a></li>
+                    <li class=""><a class="hover:underline hover:text-yellow-500" href="/contact/">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="flex-grow max-w-3xl mx-auto p-4">{% block content %}{% endblock %}</main>
+    <footer class="bg-black p-4">
+        <div class="max-w-3xl mx-auto flex flex-col md:flex-row flex-wrap gap-4 md:items-center">
+            <div class="">
+                <a class="" href="/">
+                    <img src="/images/logo.png" alt="The Cheney & Co logo. A black background with white letters spelling out the name." width="200">
+                </a>
+            </div>
+            <nav class="text-white flex-grow">
+                <ul class="flex flex-col md:flex-row gap-4 md:justify-end">
+                    <li class=""><a class="hover:underline hover:text-yellow-500" href="/about/">About Us</a></li>
+                    <li class=""><a class="hover:underline hover:text-yellow-500" href="/services/">Our Services</a></li>
+                    <li class=""><a class="hover:underline hover:text-yellow-500" href="/resources/">Resources</a></li>
+                    <li class=""><a class="hover:underline hover:text-yellow-500" href="/contact/">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="text-center text-white opacity-50 text-sm mt-2">
+            &copy; Cheney &amp; Co 2022
+        </div>
+    </footer>
+</body>
+
+</html>
