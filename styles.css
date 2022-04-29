@@ -3,7 +3,33 @@
 @tailwind utilities;
 
 @layer components {
-    main a {
-        @apply text-yellow-500
+
+    body {
+        font-family: 'Rubik', sans-serif;
+    }
+
+    h1 {
+        @apply text-4xl
+    }
+
+    h2 {
+        @apply text-3xl
+    }
+
+    h3 {
+        @apply text-2xl
+    }
+
+    header a,
+    footer a {
+        @apply text-xl
+    }
+
+    main h1,
+    main h2,
+    main h3,
+    main h4,
+    main h5 {
+        font-family: 'Libre Bodoni', serif;
     }
 }
