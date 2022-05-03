@@ -1,63 +1,46 @@
 {% extends "_base.html" %}
 {% block content %}
-    <h1 class="my-4 text-center">Welcome to Cheney &amp; Co</h1>
     
-    <div class="p-4">
-        <div class="max-w-3xl mx-auto text-lg flex flex-col md:flex-row items-center gap-4">
-            <img src="/images/undraw_finance.svg" alt="" width="300px">
-            <p>Opening sentence that summarises Cheney &amp; Co's history, ethos, and talent. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula tortor, volutpat non metus a, pretium laoreet risus.</p>
-        </div>
-    </div>
-    
-    <div class="p-4">
-        <div class="max-w-3xl mx-auto grid grid-rows-2 md:grid-cols-2 md:grid-rows-none gap-4 mt-8">
-            <div class="md:border-r">
-                <div class="flex flex-row mb-2">
-                    <div class="mr-4"><i class="fa-thin fa-clock fa-3x"></i></div>
-                    <div>
-                        <p class="mb-4">Sentence about how nice it is to meet people.</p>
-                        <p>We are open 9am - 6pm on weekdays.</p>
-                    </div>
-                </div>
-                
-            </div>
-            <div>
-                <div class="flex flex-row mb-2">
-                    <div class="mr-4"><i class="fa-thin fa-map-location-dot fa-3x"></i></div>
-                    <div>
-                        <p class="mb-4">Sentence about how we're local and you can pop in.</p>
-                        <p>310 Wellingborough Road</p>
-                        <p>Northampton</p>
-                        <p>NN1 4EP</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="max-w-3xl mx-auto my-8">
-            <iframe class="w-full aspect-video" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.0234518740335!2d-0.8753629838506451!3d52.24295767976271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48770932c2e8fc43%3A0xb05839ac8b7f21b6!2sCheney%20%26%20Co!5e0!3m2!1sen!2suk!4v1651150478193!5m2!1sen!2suk" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <div class="max-w-3xl mx-auto grid grid-rows-2 md:grid-cols-2 md:grid-rows-none gap-4">
-            <div class="md:border-r">
-                <div class="flex flex-row mb-2">
-                    <div class="mr-4"><i class="fa-thin fa-phone fa-3x"></i></div>
-                    <div>
-                        <p class="mb-4">Sentence about how we're always available to talk to.</p>
-                        <p><a class="text-brand-yellow hover:underline" href="tel:+441604620106">(01604) 620106</a></p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div class="flex flex-row mb-2">
-                    <div class="mr-4"><i class="fa-thin fa-at fa-3x"></i></div>
-                    <div>
-                        <p class="mb-4">Sentence about how sometimes an email is better.</p>
-                        <p><a class="text-brand-yellow hover:underline" href="mailto:accountants@cheneyco.co.uk">accountants@cheneyco.co.uk</a></p>
-                    </div>
-                </div>
+<div class="relative overflow-hidden bg-no-repeat bg-cover home-hero -mt-8 h-[350px]">
+    <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed bg-black/75">
+        <div class="flex justify-center items-end h-full max-w-3xl mx-auto">
+            <div class="p-6 md:px-12 bg-brand-yellow h-full md:h-auto md:rounded-t md:mr-[40%]">
+                <h1 class="uppercase font-bold text-xl mb-4">Welcome to Cheney &amp; Co</h1>
+                <p class="text-white text-3xl font-bold mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
         </div>
     </div>
-    <div class="bg-brand-gray text-center text-2xl py-8">
-        Call to <a class="bg-brand-yellow rounded py-2 px-3" href="">ACTION</a>
+</div>
+    
+    <div class="p-4">
+        <div class="max-w-4xl mx-auto text-lg flex flex-col md:flex-none md:grid md:grid-cols-4 gap-4">
+            <p class="md:mt-10 md:col-span-2 text-xl">Opening sentence that summarises Cheney &amp; Co's history, ethos, and talent. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula tortor, volutpat non metus a, pretium laoreet risus.</p>
+            <div class="border-t-4 border-black mt-4 pt-4">
+                <h2>Services</h2>
+                <p class="my-4">Suspendisse ligula tortor, volutpat non metus a, pretium laoreet risus.</p>
+                <p><a class="bg-brand-yellow rounded py-2 px-3 hover:bg-amber-600" href="/services/">Services</a></p>
+            </div>
+            <div class="border-t-4 border-black mt-4 pt-4">
+                <h2>Resources</h2>
+                <p class="my-4">Suspendisse ligula tortor, volutpat non metus a, pretium laoreet risus.</p>
+                <p><a class="bg-brand-yellow rounded py-2 px-3 hover:bg-amber-600" href="/resources/">Resources</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-4 md:mt-16">
+        <div class="max-w-4xl mx-auto text-lg flex flex-col md:flex-none md:grid md:grid-cols-4 gap-4">
+            <p class="md:mt-10 md:col-span-2 text-xl md:order-last">Opening sentence that summarises Cheney &amp; Co's history, ethos, and talent. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ligula tortor, volutpat non metus a, pretium laoreet risus.</p>
+            <div class="border-t-4 border-black mt-4 pt-4">
+                <h2>About</h2>
+                <p class="my-4">Suspendisse ligula tortor, volutpat non metus a, pretium laoreet risus.</p>
+                <p><a class="bg-brand-yellow rounded py-2 px-3 hover:bg-amber-600" href="/about/">About</a></p>
+            </div>
+            <div class="border-t-4 border-black mt-4 pt-4">
+                <h2>Contact</h2>
+                <p class="my-4">Suspendisse ligula tortor, volutpat non metus a, pretium laoreet risus.</p>
+                <p><a class="bg-brand-yellow rounded py-2 px-3 hover:bg-amber-600" href="/contact/">Contact</a></p>
+            </div>
+        </div>
     </div>
 {% endblock content %}

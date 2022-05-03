@@ -25,11 +25,8 @@
         @apply text-xl
     }
 
-    main h1,
-    main h2,
-    main h3,
-    main h4,
-    main h5 {
-        font-family: 'Libre Bodoni', serif;
+    .home-hero {
+        background-position: 50%;
+        background-image: url('/images/pexels_pen_on_paper.jpg');
     }
 }
