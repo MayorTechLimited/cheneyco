@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    
+    <script src="/iframeResizer.min.js"></script>
+
 </head>
 
 <body class="flex flex-col h-full">
@@ -33,7 +36,10 @@
     <h1 class="my-4 text-center sr-only">Resources</h1>
 
     <div class="my-4 max-w-3xl mx-auto">
-        <iframe src="https://cheneyco-co-uk.rc.clientzone.com/resources" frameborder="0" class="px-4 w-full h-[1000px]" ></iframe>
+        <iframe src="https://cheneyco-co-uk.rc.clientzone.com/resources" frameborder="0" class="px-4 w-full min-w-[100%] resources" ></iframe>
+        <script>
+            iFrameResize({}, 'iframe.resources')
+        </script>
     </div>
 
 
