@@ -5,7 +5,7 @@ set -eu
 
 rm -rf dist
 staticjinja build --outpath ./dist
-cp -r images dist/
+cp -r images iframeResizer.min.js dist/
 tailwindcss -i ./styles.css -o ./dist/styles.css --minify
 tailwindcss -i ./resources.css -o ./dist/resources.css --minify
 

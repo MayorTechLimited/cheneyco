@@ -1,9 +1,17 @@
 {% extends "_base.html" %}
+
+{% block head %}
+    <script src="/iframeResizer.min.js"></script>
+{% endblock }
+
 {% block content %}
     <h1 class="my-4 text-center sr-only">Resources</h1>
 
     <div class="my-4 max-w-3xl mx-auto">
-        <iframe src="https://cheneyco-co-uk.rc.clientzone.com/resources" frameborder="0" class="px-4 w-full h-[1000px]" ></iframe>
+        <iframe src="https://cheneyco-co-uk.rc.clientzone.com/resources" frameborder="0" class="px-4 w-full min-w-[100%] resources" ></iframe>
+        <script>
+            iFrameResize({}, 'iframe.resources')
+        </script>
     </div>
 
 
