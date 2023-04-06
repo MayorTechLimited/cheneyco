@@ -24,6 +24,6 @@
     }
 
     .cta-primary h3 {
-        @apply text-4xl text-brand-yellow hover:text-underline mb-2;
+        @apply text-4xl text-brand-yellow hover:underline mb-2;
     }
 }

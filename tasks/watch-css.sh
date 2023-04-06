@@ -1,4 +1,4 @@
 #!/bin/bash
 set -eu
 
-tailwindcss -i ./styles.css -o ./dist/styles.css --watch
+tailwindcss -i "./${1:-styles}.css" -o "./dist/${1:-styles}.css" --watch
