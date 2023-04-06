@@ -8,10 +8,22 @@
 
     body {
         font-family: 'Rubik', sans-serif;
+        font-weight: 300;
     }
 
     h1 {
         @apply text-5xl mb-4 text-center;
     }
 
+    nav {
+        @apply mt-4;
+    }
+
+    .cta-primary {
+        @apply mt-2
+    }
+
+    .cta-primary h3 {
+        @apply text-4xl text-brand-yellow hover:text-underline mb-2;
+    }
 }
