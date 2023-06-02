@@ -1,4 +1,9 @@
 #!/bin/bash
+# ---
+# environment:
+#   - SSH_AGENT_PID
+#   - SSH_AUTH_SOCK
+# ---
 set -eu
 
 . venv/bin/activate
