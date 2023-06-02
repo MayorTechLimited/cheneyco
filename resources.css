@@ -20,6 +20,15 @@ body {
     padding: 8px;
 }
 
+a {
+    color: #FCA311;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 /* Base grid system */
 
 .container {
