@@ -7,12 +7,15 @@
 *
 * 202020 - primary color (dark grey)
 * 3e3e3e - dark primary colour (darker grey)
-* 1d1d1d - darker primary colour (even darker grey)
 *
 * All other colours are default bootstrap or variations of grey
 * Feel free to update as needed
 *
 */
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
 
 /* Base grid system */
 
@@ -1934,8 +1937,8 @@ select[multiple].input-lg {
 
 .btn-primary {
     color: #ffffff;
-    background-color: #1d1d1d;
-    border-color: #1d1d1d;
+    background-color: #FCA311;
+    border-color: #FCA311;
 }
 
     .btn-primary:hover,
@@ -1969,12 +1972,12 @@ select[multiple].input-lg {
     .btn-primary.disabled.active,
     .btn-primary[disabled].active,
     fieldset[disabled] .btn-primary.active {
-        background-color: #1d1d1d;
-        border-color: #1d1d1d;
+        background-color: #FCA311;
+        border-color: #FCA311;
     }
 
     .btn-primary .badge {
-        color: #1d1d1d;
+        color: #FCA311;
         background-color: #ffffff;
     }
 
