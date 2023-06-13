@@ -22,7 +22,7 @@
     }
 
     main a {
-        color: blue;
+        color: #FC6203;
         @apply font-bold hover:underline;
     }
     .prose p {
