@@ -21,7 +21,7 @@ body {
 }
 
 a {
-    color: #FCA311;
+    color: #e30513;
     text-decoration: none;
 }
 
@@ -1949,8 +1949,8 @@ select[multiple].input-lg {
 
 .btn-primary {
     color: #ffffff;
-    background-color: #FCA311;
-    border-color: #FCA311;
+    background-color: #e30513;
+    border-color: #e30513;
 }
 
     .btn-primary:hover,
@@ -1984,12 +1984,12 @@ select[multiple].input-lg {
     .btn-primary.disabled.active,
     .btn-primary[disabled].active,
     fieldset[disabled] .btn-primary.active {
-        background-color: #FCA311;
-        border-color: #FCA311;
+        background-color: #e30513;
+        border-color: #e30513;
     }
 
     .btn-primary .badge {
-        color: #FCA311;
+        color: #e30513;
         background-color: #ffffff;
     }
 

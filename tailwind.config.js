@@ -3,8 +3,8 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                "brand-yellow": "#FC6203",
-                "brand-yellow-dark": "#D15102",
+                "brand-primary": "#e30513",
+                "brand-dark": "#700209",
                 "brand-gray": "#E5E5E5"
             }
         },

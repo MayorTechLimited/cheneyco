@@ -1,0 +1,9 @@
+header .active a {
+    color: black;
+}
+#sub-nav a {
+    color: white;
+}
+table th {
+    color: white;
+}

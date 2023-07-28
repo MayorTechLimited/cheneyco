@@ -22,8 +22,7 @@
     }
 
     main a {
-        color: #FC6203;
-        @apply font-bold hover:underline;
+        @apply font-bold hover:underline text-brand-primary;
     }
     .prose p {
         @apply my-4;
@@ -36,6 +35,6 @@
 
     .home-hero {
         background-position: 50%;
-        background-image: url('/images/pexels_pen_on_paper.jpg');
+        background-image: url('/images/guildhall.jpg');
     }
 }
